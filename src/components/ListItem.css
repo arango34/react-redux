@@ -1,0 +1,29 @@
+.list-item {
+  margin-bottom: 1rem;
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-container {
+  width: 5.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-edit {
+  color: green;
+}
+
+.btn-delete {
+  color: red;
+}
